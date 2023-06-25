@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfe=self.webpackChunkfe||[]).push([[235],{3160:(e,n,r)=>{r.r(n),r.d(n,{default:()=>u});r(7294);var s=r(5893);const u=function(){return(0,s.jsx)("h3",{children:"我是PreloadDemo组件"})}}}]);

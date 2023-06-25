@@ -1,0 +1,44 @@
+/* src/app.module.less */
+@color: red;
+
+.lessBox {
+    font-family: MaShanZheng;
+    .box {
+        color: @color;
+        background-color: lightblue;
+        transform: translateX(100);
+
+        &:before{
+            @arr: 'hello', 'world';
+            content: `@{arr}.join(' ').toUpperCase()`;
+          }
+    }
+}
+
+.smallImg {
+    width: 69px;
+    height: 75px;
+    background: url('@/assets/imgs/厨房.png') no-repeat;
+  }
+
+
+/* src/app.module.scss */
+// $blue: #1875e7;
+// $side: left;
+
+// .scssBox {
+//   margin: 20px 0;
+//   .box {
+//     color: $blue;
+//     background-color: rgb(226, 223, 223);
+//     border: 1px solid grey;
+//     margin-#{$side}: 20px;
+//     padding: (20px/2);
+//   }
+// }
+
+// /* src/app.module.styl */
+// .stylBox 
+//   .box 
+//     color: red;
+//     background-color: yellow;

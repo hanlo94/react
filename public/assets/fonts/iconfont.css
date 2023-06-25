@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1687273655009') format('truetype');
+}
+
+@font-face {
+  font-family: "MaShanZheng"; /* Project id  */
+  src: url('./MaShanZheng-Regular.ttf') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-caomei:before {
+  content: "\e601";
+}
+
+.icon-mangguo:before {
+  content: "\e602";
+}
+
+.icon-lanmei:before {
+  content: "\e603";
+}
+
+.icon-ningmeng:before {
+  content: "\e604";
+}
+
+.icon-juzi:before {
+  content: "\e605";
+}
+
+.icon-niuyouguo:before {
+  content: "\e606";
+}
+
+.icon-putao:before {
+  content: "\e607";
+}
+

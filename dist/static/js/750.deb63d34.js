@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfe=self.webpackChunkfe||[]).push([[750],{9750:(e,n,s)=>{s.r(n),s.d(n,{default:()=>c});s(7294);var u=s(5893);const c=function(){return(0,u.jsx)("h3",{children:"我是懒加载组件组件"})}}}]);
