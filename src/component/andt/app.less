@@ -1,29 +1,26 @@
 /* src/app.module.less */
-body {
-  margin: 0;
-  background: rgb(74, 72, 68);
-}
 @color: red;
 
 .lessBox {
-  font-family: MaShanZheng;
-  .box {
-    color: @color;
-    background-color: lightblue;
-    transform: translateX(100);
+    font-family: MaShanZheng;
+    .box {
+        color: @color;
+        background-color: lightblue;
+        transform: translateX(100);
 
-    &:before {
-      @arr: "hello", "world";
-      content: ` @{arr}.join(" ") .toUpperCase() `;
+        &:before{
+            @arr: 'hello', 'world';
+            content: `@{arr}.join(' ').toUpperCase()`;
+          }
     }
-  }
 }
 
 .smallImg {
-  width: 69px;
-  height: 75px;
-  background: url("@/assets/imgs/厨房.png") no-repeat;
-}
+    width: 69px;
+    height: 75px;
+    background: url('@/assets/imgs/厨房.png') no-repeat;
+  }
+
 
 /* src/app.module.scss */
 // $blue: #1875e7;
@@ -41,7 +38,7 @@ body {
 // }
 
 // /* src/app.module.styl */
-// .stylBox
-//   .box
+// .stylBox 
+//   .box 
 //     color: red;
 //     background-color: yellow;
