@@ -52,7 +52,7 @@ const Tsrules = () => {
     let b: number = a as number;
     // let c: number = <number>a;
   };
-
+ 
   const typeAlias = () => {
     // 类型别名
     type Name = string;
@@ -116,6 +116,6 @@ const Tsrules = () => {
 
   useEffect(() => {}, []);
 
-  return <div>1234567</div>;
+  return <div>123422567</div>;
 };
 export default Tsrules;
